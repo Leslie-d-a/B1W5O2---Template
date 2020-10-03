@@ -15,29 +15,41 @@ body{
 	height: 40px;
 }
 .navList {
-	margin-left: 1145px;
+	position: absolute;
+  	right: 40px;
 	font-size: 0px;
 }
 .navItem {
+	transition-duration: 0.5s;
 	display: inline-block;
-	background-color: gray;
+	background-color: rgba(150,150,150,0.7);
 	height: 40px;
 	width: 40px;
 	margin-right: 1px;
 }
-.navButtonHome {
+.navItem:hover {
+	background-color: rgba(150,150,150,1);
+}
+.navButton {
 	display: inline-block;
 	color: white;
 	font-size: 25px;
 }
-.fa-wifi, .fa-google-plus-g {
+.fa-google-plus-g, .fa-home, .fa-cogs{
 	padding: 7px 7px 5px 5px;
 }
-.fa-twitter {
+.fa-rss, .fa-copy{
+	padding: 7px 7px 7px 9px;
+}
+.fa-twitter, .fa-th, .fa-comment{
 	padding: 7px 7px 8px 8px;
 }
 .fa-facebook-f {
 	padding: 7px 7px 10px 12px;
+}
+.letterIcon {
+	font-size: 30px;
+	padding: 5px 7px 7px 10px;
 }
 .logo {
 	display: block;
@@ -46,12 +58,9 @@ body{
 	margin-bottom: 45px;
 }
 .menu {
+	display: flex;
+	justify-content: center;
 	width: auto;
-	display: inline-block;
-	margin: 0 auto;
-}
-.menuList {
-	margin-left: 280px;
 }
 .menuItem {
 	display: inline-block;
@@ -66,16 +75,21 @@ body{
 	display: block;
 }
 .menuButtonIcon {
-	opacity: 0.5;
-}
-.menuButton .fas, .menuButton .fab, .menuButton .far {
+	transition-duration: 0.5s;
 	font-size: 30px;
 	opacity: 0.5;
 }
+.menuButtonIcon:hover {
+	opacity: 1;
+}
 .letter {
+	transition-duration: 0.5s;
 	font-family: sans-serif;
 	font-size: 45px;
 	opacity: 0.5;	
+}
+.letter:hover {
+	opacity: 1;
 }
 a {
 	text-decoration: none;
