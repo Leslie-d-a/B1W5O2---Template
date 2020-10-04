@@ -91,6 +91,54 @@ body{
 .letter:hover {
 	opacity: 1;
 }
+.pages, .contact, .features {
+	margin-top: 100px;
+	margin: 40px;
+	margin-left: 200px;
+}
+.portfolio {
+	margin: 0 auto;
+	margin-top: 100px;
+	margin: 40px;
+}
+.blog {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 1000px;
+}
+.content dl dt{
+	margin: 20px;
+	font-size: 40px;
+}
+.content dl dd, .content ol li{
+	margin: 20px;
+	font-size: 20px;
+}
+.content h1 {
+	width: 100%;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.content h2 {
+	margin-left: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.blog-img {
+	width: 200px;
+	margin-right: 20px;
+	float: left;
+}
+.portrait {
+	height: 600px;
+	width: 400px;
+	margin: 40px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	float: right;
+}
 a {
 	text-decoration: none;
 	color: white;
